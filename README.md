@@ -1,2 +1,2 @@
 # website
-Jusst a small website for bot. Fun project lol
+Just a small website for bot. Fun project lol
