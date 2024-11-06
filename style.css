@@ -205,4 +205,8 @@ org {
   content-card-container {
     grid-template-columns: 1fr;
   }
+
+  card-head {
+    font-size: 2.5rem;
+  }
 }
