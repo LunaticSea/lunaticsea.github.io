@@ -97,7 +97,7 @@ card-img {
 card-button {
   font-size: 2rem;
   font-weight: bolder;
-  background-color: #f1f1f1;
+  background-color: #eeeeee;
   color: #1F1F1F;
   padding: 0.3em 0.8em 0.3em 0.8em;
   border-radius: 50px;
@@ -115,6 +115,14 @@ card-button {
 
 card-button:active {
   transform: scale(95%)
+}
+
+card-button-array {
+  background-color: var(--sec-color);
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
 }
 
 content-area {
@@ -183,6 +191,14 @@ org {
     margin-left: 0;
     margin-right: 0;
   }
+
+  header-c-area {
+    font-size: 3.2rem;
+  }
+
+  card-button {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 961px)  {
@@ -199,6 +215,14 @@ org {
   content-card-container {
     grid-template-columns: 1fr 1fr;
   }
+
+  header-c-area {
+    font-size: 3rem;
+  }
+
+  card-button {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 600px)  {
@@ -209,4 +233,17 @@ org {
   card-head {
     font-size: 2.5rem;
   }
+
+  header-c-area {
+    font-size: 2.5rem;
+  }
+
+  card-button {
+    font-size: 1.4rem;
+  }
+
+  card-button-array {
+    grid-template-columns: 1fr;
+  }
+  
 }
